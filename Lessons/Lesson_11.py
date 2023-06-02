@@ -119,7 +119,7 @@
 # print(diff_set_A)
 # diff_set_B = setB.difference(setA)
 # print(diff_set_B)
-# diff_set_A = setA.difference(setB, setC)
+# diff_set_A = setA.diffe   rence(setB, setC)
 # print(diff_set_A)
 
 # # A.difference(B) is not the same as B.difference(A)
