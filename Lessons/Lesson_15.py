@@ -1,8 +1,8 @@
 # isinstance()  Returns True if a specified object is an instance of a specified object
 #           RU: Возвращает True, если указанный объект является экземпляром указанного объекта
 # EX:
-# print(type(123) == str)
-# print(isinstance(5, str))
+# print(type(123) == int)
+# print(isinstance(5, int))
 
 # ------------------------------------------------------------------------------
 # issubclass()  Returns True if a specified class is a subclass of a specified object
@@ -65,6 +65,7 @@
 
 # ------------------------------------------------------------------------------
 # pow()          Returns the value of x to the power of y
+
 # print(pow(3, 5)) #  =>  243
 # ------------------------------------------------------------------------------
 # print()      Prints to the standard output device

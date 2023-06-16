@@ -218,3 +218,44 @@ def check_key(dict, key):
 #     RU: Напишите программу Python, чтобы перебирать словари с помощью циклов for.
 def iterate_over_dict(dict):
     pass
+
+#! ------------------------------------------------------------
+##  Write a program that takes a list of strings as input and returns a new list with all strings capitalized.
+def capitalize_strings(lst):
+    new_lst = []
+    for string in lst:
+        new_lst.append(string.capitalize())
+    return new_lst
+
+#! ------------------------------------------------------------
+## Write a program that takes a list of numbers as input and returns the largest number
+numbers = [2, 8, 1, 6, 9, 4, 3]
+
+largest_number = numbers[0]
+for i in range(1, len(numbers)):
+    if numbers[i] > largest_number:
+        largest_number = numbers[i]
+
+print("The largest number is:", largest_number)
+
+#! ------------------------------------------------------------
+## Write a program that takes a string as input and returns the string with all letters in uppercase
+
+my_string = input("Enter a string: ")
+uppercase_string = my_string.upper()
+print(uppercase_string)
+
+#! ------------------------------------------------------------
+## Write a program that takes a list of strings as input and returns a new list with 
+## all strings of length 4 or greater.
+
+def filter_strings(input_list):
+    output_list = []
+    for item in input_list:
+        if len(item) >= 4:
+            output_list.append(item)
+    return output_list
+
+strings = ["apple", "banana", "car", "dog", "elephant", "fish"]
+filtered_strings = filter_strings(strings)
+print(filtered_strings)
