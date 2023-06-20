@@ -252,7 +252,7 @@ print(uppercase_string)
 def filter_strings(input_list):
     output_list = []
     for item in input_list:
-        if len(item) >= 4:
+        if len(item) >= 4: 
             output_list.append(item)
     return output_list
 
