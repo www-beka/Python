@@ -8,9 +8,9 @@ def n_prime_numbers(n):
 
 # ===============================================================================
 
-# Write a program that calculates the sum of the first 1000 Fibonacci numbers.
-# Write a program that prints out the first 1000 digits of pi (3.14).
-# Write a program that generates a random password of length 20.
+# Напишите программу, которая вычисляет сумму первых 1000 чисел Фибоначчи.
+# Напишите программу, которая печатает первые 1000 цифр PI (3.14).
+# Напишите программу, которая генерирует случайный пароль длины 20.
 # Write a program that calculates the factorial of a given number.
 # Write a program that prints out the first 1000 perfect squares.
 # Write a program that generates a random maze and solves it using the A* algorithm.
