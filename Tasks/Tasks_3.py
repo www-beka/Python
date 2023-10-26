@@ -24,8 +24,8 @@ from functools import reduce
 def average_of_numbers(arr):
     summ = reduce(lambda acc, next: acc + next, arr)
     round_number = round(summ / len(arr), 2)
-    print(round_number)
-
+    x = min(arr, key=lambda x: abs(x-round_number))
+    print(x)
 
 numbers = [13, 22, 35, 41, 52]
 
