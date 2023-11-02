@@ -39,8 +39,6 @@ def sort_tuple(tup: tuple) -> tuple:
     odd.sort(reversed=True) 
     return tuple(even + odd)
 
-
-
 def remove_key(dc, _key):
     dict_copy = dc.copy()
     dict_copy.pop(_key)
@@ -52,12 +50,12 @@ def remove_duplicates(dict):
             del dict[key]
     return dict
 
-
 def get_keys_greater_than(dict, num):
     result = {}
     for key, val in dict.items():
-        if val > num:
-            result[key] = val
+        if str(val).isnumeric():
+            if val > num:
+                result[key] = val
     return result
 
 def reverse_dict(d):

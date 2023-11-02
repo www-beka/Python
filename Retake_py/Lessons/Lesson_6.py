@@ -32,3 +32,4 @@ def sum_dict(dict):
     # return {if type(val) == int: total += val for val in dict.values(): }
 x = {"a": 1, "b": "2"} 
 print(sum_dict(x))
+
