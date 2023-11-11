@@ -75,3 +75,18 @@ a = {'g': 5, 'h': "!!!", "i": "6"}
 arr = [x, z, a]
 
 print(sum_numeric_values(arr))
+
+
+def majorityElement(nums):
+    count = 0
+    majority = 0
+    
+    for i in range(len(nums)):
+        if count == 0 and majority != nums[i]:
+            majority = nums[i]
+            count += 1
+        elif majority == nums[i]:
+            count += 1
+        else:
+            count -= 1
+    return majority

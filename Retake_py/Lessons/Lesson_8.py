@@ -71,24 +71,6 @@ obj2 = eBooks('Binary search', 22, 'What is Binary search', 'MR.Jarvis', 4)
 print(obj1.get_info())
 print(obj2.get_info())
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Abstract
 # Inheritance
 
